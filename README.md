@@ -1,96 +1,120 @@
-##Resume Screening Bot
-An AI-powered virtual assistant designed for recruiters and HR professionals to streamline resume screening against job descriptions. Built with Streamlit, LangChain, and advanced RAG (Retrieval-Augmented Generation) technology, this tool provides intelligent analysis, match scoring, and candidate evaluation.
-🚀 Features
+Resume Screening Bot
 
-Intelligent Resume Screening: Upload multiple PDF resumes and screen them against job descriptions with automated match scoring (0-100%), strengths, weaknesses, and recommendations.
-Job Description Integration: Leverages vector stores for contextual retrieval from job description documents.
-Conversational Interface: Natural language chat for querying job details, evaluating candidates, and getting insights.
-Chat History Management: Save, load, and manage multiple chat sessions with persistent history.
-Feedback System: Rate responses to improve model performance over time.
-Multi-Model Support: Compatible with Groq, OpenAI, and Google Generative AI models for flexible deployment.
-Secure & Local: Runs locally with optional cloud integrations; no external dependencies for core functionality.
+A powerful AI-powered virtual assistant designed for recruiters and HR professionals to streamline resume screening and candidate evaluation. Leveraging Retrieval-Augmented Generation (RAG) technology, this tool intelligently analyzes resumes against job descriptions, providing match scores, strengths, weaknesses, and recommendations.
 
-🛠️ Technology Stack
+✨ Features
 
-Frontend: Streamlit for an intuitive web-based UI.
-Backend: LangChain for RAG pipelines, Chroma for vector database.
-Embeddings: Hugging Face BGE models for semantic search.
-LLM: Groq Llama models (with support for OpenAI and Gemini).
-PDF Processing: PyPDF2 for resume parsing.
-Memory & Logging: Conversation buffer memory with comprehensive logging.
+Automated Resume Screening: Upload multiple PDF resumes and screen them against job descriptions with match scores (0-100%), detailed strengths, weaknesses, and recommendations.
+Contextual Job Description Analysis: Uses a vector store to retrieve relevant job description details for accurate responses.
+Conversational Interface: Natural language chat for querying job details and candidate evaluations.
+Chat History Management: Save, load, and delete chat sessions with persistent history stored in JSON.
+Feedback System: Rate assistant responses to improve performance over time.
+Multi-LLM Support: Compatible with Groq (Llama), OpenAI, and Google Generative AI models.
+Local Deployment: Runs locally with optional cloud integrations for flexibility.
+
+
+🛠️ Tech Stack
+
+Frontend: Streamlit for a sleek, web-based UI.
+Backend: LangChain for RAG pipelines, Chroma for vector storage.
+Embeddings: Hugging Face BGE for semantic search.
+LLM: Groq Llama models, with optional OpenAI and Google Gemini support.
+PDF Processing: PyPDF2 for parsing resume PDFs.
+Utilities: Conversation buffer memory, logging, and environment variable management.
+
 
 📋 Prerequisites
 
-Python 3.8+
-GitHub account
-API keys for LLM providers (Groq, OpenAI, or Google AI Studio)
+Python: Version 3.8 or higher
+GitHub Account: For repository management
+API Keys: Required for LLM providers (Groq, OpenAI, or Google AI Studio)
 
-💻 Installation
 
-Clone the repository:
+🚀 Installation
+
+Clone the Repository:
 git clone https://github.com/yourusername/resume-screening-bot.git
 cd resume-screening-bot
 
 
-Create a virtual environment:
+Create a Virtual Environment:
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 
-Install dependencies:
+Install Dependencies:
 pip install -r requirements.txt
 
 
-Set up environment variables:Create a .env file in the root directory and add your API keys:
+Set Up Environment Variables:Create a .env file in the project root and add your API keys:
 GROQ_API_KEY=your_groq_api_key
 OPENAI_API_KEY=your_openai_api_key  # Optional
 GOOGLE_API_KEY=your_google_api_key  # Optional
 
 
-Run the application:
+Run the Application:
 streamlit run app.py
 
 
 
-🔧 Usage
 
-Start a New Chat: Click "New Chat" to begin a screening session.
-Upload Resumes: Use the file uploader to add PDF resumes (appears by default in new chats).
-Query the Bot: Ask questions like "Screen these resumes for the Software Engineer role" or "Evaluate candidate fit for JD".
-Review Results: Get detailed analysis, scores, and rankings for multiple resumes.
-Manage History: Switch between chats, delete sessions, and provide feedback on responses.
-Toggle Uploads: Use the "Upload New Resumes" button to add more files mid-session.
+🎯 Usage
 
-For screening multiple resumes, ensure your query includes keywords like "screen", "evaluate", or "assess" to trigger analysis.
-📁 Project Structure
+Start a New Chat: Click the "New Chat" button to begin a new screening session.
+Upload Resumes: Use the file uploader (shown by default in new chats) to add PDF resumes.
+Query the Assistant: Ask questions like "Screen these resumes for a Software Engineer role" or "Evaluate candidate fit for this JD".
+Review Results: Receive detailed analysis, including match scores and rankings for multiple resumes.
+Toggle File Uploader: Use the "Upload New Resumes" button in the query bar to add more resumes mid-session.
+Manage Chats: Switch between saved chats, delete sessions, or rate responses for feedback.
+
+Note: For resume screening, include keywords like "screen", "evaluate", "assess", "review", or "match" in your query to trigger analysis of uploaded resumes.
+
+📂 Project Structure
 resume-screening-bot/
-├── app.py                 # Main Streamlit UI
-├── RAG_chatbot.py         # RAG pipeline and LLM integration
-├── requirements.txt       # Dependencies
-├── .env.example           # Environment variables template
-├── chroma_db/             # Vector store (auto-generated)
-├── chat_history.json      # Persistent chat data
-└── README.md              # This file
+├── app.py                 # Streamlit UI for the application
+├── RAG_chatbot.py         # RAG pipeline and LLM logic
+├── requirements.txt       # Project dependencies
+├── .env.example           # Template for environment variables
+├── .gitignore             # Excludes sensitive files (e.g., .env, chroma_db)
+├── chat_history.json      # Stores chat session data
+├── feedback_YYYY-MM-DD.json  # Stores user feedback (generated)
+├── chroma_db/             # Vector store directory (generated)
+└── README.md              # Project documentation
+
 
 🤝 Contributing
-Contributions are welcome! Please follow these steps:
+We welcome contributions to enhance the Resume Screening Bot! To contribute:
 
-Fork the project.
-Create a feature branch (git checkout -b feature/AmazingFeature).
-Commit your changes (git commit -m 'Add some AmazingFeature').
-Push to the branch (git push origin feature/AmazingFeature).
-Open a Pull Request.
+Fork the repository.
+Create a feature branch:git checkout -b feature/YourFeature
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-🙏 Acknowledgments
+
+Commit your changes:git commit -m "Add YourFeature"
+
+
+Push to the branch:git push origin feature/YourFeature
+
+
+Open a Pull Request on GitHub.
+
+Please ensure your code follows the project's style and includes tests where applicable.
+
+📜 License
+This project is licensed under the MIT License.
+
+🙌 Acknowledgments
 
 LangChain for the RAG framework.
-Streamlit for the rapid UI development.
-Hugging Face and Groq for open-source models and APIs.
-The open-source community for invaluable tools and libraries.
+Streamlit for rapid UI development.
+Groq and Hugging Face for powerful AI models.
+The open-source community for providing robust tools and libraries.
 
-📞 Support
-If you encounter issues or have suggestions, please open an issue on GitHub or reach out via email.
 
-Built with ❤️ for efficient HR processes.
+📬 Contact & Support
+For issues, feature requests, or questions, please:
+
+Open an issue on the GitHub Issues page.
+Contact the maintainer via email (replace with your email if desired).
+
+
+Empowering recruiters with AI-driven efficiency. Built with ❤️ for HR excellence.
