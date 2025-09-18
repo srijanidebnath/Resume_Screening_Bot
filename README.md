@@ -1,4 +1,4 @@
-Resume Screening Bot
+##Resume Screening Bot
 An AI-powered virtual assistant designed for recruiters and HR professionals to streamline resume screening against job descriptions. Built with Streamlit, LangChain, and advanced RAG (Retrieval-Augmented Generation) technology, this tool provides intelligent analysis, match scoring, and candidate evaluation.
 🚀 Features
 
