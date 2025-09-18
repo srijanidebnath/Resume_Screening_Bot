@@ -1,0 +1,320 @@
+2025-09-18 19:16:18,046 - INFO - Use pytorch device_name: cpu
+2025-09-18 19:16:18,046 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 19:16:27,091 - INFO - Creating RAG chain...
+2025-09-18 19:16:27,093 - INFO - Attempting to load vector store...
+2025-09-18 19:16:27,155 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 19:16:27,478 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:16:27,486 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:16:27,486 - INFO - Vector store loaded successfully.
+2025-09-18 19:16:27,486 - INFO - Creating retriever with MMR settings.
+2025-09-18 19:16:27,486 - INFO - RAG chain created successfully.
+2025-09-18 19:16:27,529 - INFO - Use pytorch device_name: cpu
+2025-09-18 19:16:27,529 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 19:16:34,019 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 19:16:34,025 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:16:34,025 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:24:28,591 - INFO - Use pytorch device_name: cpu
+2025-09-18 19:24:28,591 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 19:24:38,149 - INFO - Creating RAG chain...
+2025-09-18 19:24:38,149 - INFO - Attempting to load vector store...
+2025-09-18 19:24:38,201 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 19:24:38,500 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:24:38,516 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:24:38,516 - INFO - Vector store loaded successfully.
+2025-09-18 19:24:38,516 - INFO - Creating retriever with MMR settings.
+2025-09-18 19:24:38,516 - INFO - RAG chain created successfully.
+2025-09-18 19:25:40,856 - INFO - Received query: is the resume a match for the data scientist job?? (Resume attached: tmpzj35rkjm.pdf)
+2025-09-18 19:25:41,391 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:25:41,488 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 19:26:09,459 - INFO - Saved conversation context to memory.
+2025-09-18 19:26:31,701 - INFO - Use pytorch device_name: cpu
+2025-09-18 19:26:31,701 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 19:26:39,583 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 19:26:39,583 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:26:39,600 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:40:56,476 - INFO - Use pytorch device_name: cpu
+2025-09-18 19:40:56,476 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 19:41:05,507 - INFO - Creating RAG chain...
+2025-09-18 19:41:05,507 - INFO - Attempting to load vector store...
+2025-09-18 19:41:05,586 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 19:41:05,904 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:41:05,909 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:41:05,909 - INFO - Vector store loaded successfully.
+2025-09-18 19:41:05,909 - INFO - Creating retriever with MMR settings.
+2025-09-18 19:41:05,909 - INFO - RAG chain created successfully.
+2025-09-18 19:42:27,606 - INFO - Received query: are the resumes match for data scientist job (Resume attached: tmprriwg1fi.pdf)
+2025-09-18 19:42:27,962 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:42:28,046 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 19:42:53,438 - INFO - Saved conversation context to memory.
+2025-09-18 19:44:52,892 - INFO - Use pytorch device_name: cpu
+2025-09-18 19:44:52,892 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 19:45:01,708 - INFO - Creating RAG chain...
+2025-09-18 19:45:01,708 - INFO - Attempting to load vector store...
+2025-09-18 19:45:01,742 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 19:45:02,008 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:45:02,008 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:45:02,008 - INFO - Vector store loaded successfully.
+2025-09-18 19:45:02,008 - INFO - Creating retriever with MMR settings.
+2025-09-18 19:45:02,008 - INFO - RAG chain created successfully.
+2025-09-18 19:45:45,866 - INFO - Received query: are the resumes matches ?? (Resume attached: tmpc3_vjy4m.pdf)
+2025-09-18 19:45:46,025 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:45:46,098 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 19:45:59,956 - ERROR - Error processing query: 'int' object has no attribute 'name'
+2025-09-18 19:52:41,560 - INFO - Use pytorch device_name: cpu
+2025-09-18 19:52:41,560 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 19:52:51,842 - INFO - Creating RAG chain...
+2025-09-18 19:52:51,842 - INFO - Attempting to load vector store...
+2025-09-18 19:52:51,910 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 19:52:52,378 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:52:52,378 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:52:52,378 - INFO - Vector store loaded successfully.
+2025-09-18 19:52:52,378 - INFO - Creating retriever with MMR settings.
+2025-09-18 19:52:52,394 - INFO - RAG chain created successfully.
+2025-09-18 19:53:20,561 - INFO - Received query: are the resumes match for data scientist job?? (Resumes attached: tmp22zjm1tc.pdf, tmp5pyyp11c.pdf)
+2025-09-18 19:53:20,861 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:53:20,939 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 19:55:17,760 - INFO - Saved conversation context to memory.
+2025-09-18 19:58:15,213 - INFO - Use pytorch device_name: cpu
+2025-09-18 19:58:15,214 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 19:58:24,850 - INFO - Creating RAG chain...
+2025-09-18 19:58:24,850 - INFO - Attempting to load vector store...
+2025-09-18 19:58:24,898 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 19:58:25,182 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:58:25,182 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:58:25,182 - INFO - Vector store loaded successfully.
+2025-09-18 19:58:25,182 - INFO - Creating retriever with MMR settings.
+2025-09-18 19:58:25,182 - INFO - RAG chain created successfully.
+2025-09-18 19:59:15,153 - INFO - Received query: do the screening of the attached resumes for the job of data scientist?? (Resumes attached: tmpxzzx7r5h.pdf, tmpou9t_27p.pdf, tmpeondjuyv.pdf)
+2025-09-18 19:59:15,349 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 19:59:15,434 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 20:00:39,712 - INFO - Saved conversation context to memory.
+2025-09-18 20:30:30,558 - INFO - Received query: yes (Resumes attached: tmpwfaw_rif.pdf, tmpo5r13kw9.pdf, tmps6z09n3c.pdf)
+2025-09-18 20:30:30,684 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 20:30:54,246 - ERROR - Error processing query: 503 The model is overloaded. Please try again later.
+2025-09-18 20:33:39,426 - INFO - Use pytorch device_name: cpu
+2025-09-18 20:33:39,426 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 20:33:47,093 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 20:33:47,110 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:33:47,128 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:34:01,893 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:34:01,895 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:34:01,896 - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:35:27,044 - INFO - Use pytorch device_name: cpu
+2025-09-18 20:35:27,044 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 20:35:38,478 - INFO - Creating RAG chain...
+2025-09-18 20:35:38,478 - INFO - Attempting to load vector store...
+2025-09-18 20:35:38,528 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 20:35:38,844 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:35:38,844 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:35:38,844 - INFO - Vector store loaded successfully.
+2025-09-18 20:35:38,844 - INFO - Creating retriever with MMR settings.
+2025-09-18 20:35:38,844 - INFO - RAG chain created successfully.
+2025-09-18 20:36:11,374 - INFO - Received query: do the screening of the attached resume for the job of data scientist (Resumes attached: tmp9i58hhq2.pdf, tmpsc144rgl.pdf)
+2025-09-18 20:36:11,559 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:36:11,645 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 20:36:12,278 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:36:15,189 - INFO - Saved conversation context to memory.
+2025-09-18 20:41:53,197 - INFO - Use pytorch device_name: cpu
+2025-09-18 20:41:53,197 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 20:42:07,393 - INFO - Creating RAG chain...
+2025-09-18 20:42:07,393 - INFO - Attempting to load vector store...
+2025-09-18 20:42:07,446 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 20:42:07,823 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:42:07,828 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:42:07,828 - INFO - Vector store loaded successfully.
+2025-09-18 20:42:07,828 - INFO - Creating retriever with MMR settings.
+2025-09-18 20:42:07,830 - INFO - RAG chain created successfully.
+2025-09-18 20:43:34,697 - INFO - Use pytorch device_name: cpu
+2025-09-18 20:43:34,697 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 20:43:46,247 - INFO - Creating RAG chain...
+2025-09-18 20:43:46,247 - INFO - Attempting to load vector store...
+2025-09-18 20:43:46,297 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 20:43:46,581 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:43:46,581 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:43:46,581 - INFO - Vector store loaded successfully.
+2025-09-18 20:43:46,581 - INFO - Creating retriever with MMR settings.
+2025-09-18 20:43:46,581 - INFO - RAG chain created successfully.
+2025-09-18 20:44:12,841 - INFO - Received query: do the screening of the attached resumes against the job data scientist
+
+Screen the following resumes:
+Resume 1: Jane Smith_Resume.pdf
+Jane  Smith  Email:  jane@example.com  |  Phone:  987-654-3210  |  GitHub:  github.com/janesmith   Education:  -  Bachelor's  in  Computer  Science,  ABC  University  (2019)   Experience:  -  SDE  at  XYZ  Tech  (2020-Present):  Developed  web  apps  using  Java  and  Spring.  Optimized  
+code
+ 
+with
+ 
+algorithms.
+ -  Software  Engineer  Intern  at  PQR  (2019):  Worked  on  AWS  microservices  and  Git.   Skills:  -  Java,  Python,  Data  Structures,  SQL,  Docker,  Agile   
+
+Resume 2: John Doe_Resume.pdf
+John  Doe  Email:  john@example.com  |  Phone:  123-456-7890  |  LinkedIn:  linkedin.com/in/johndoe   Education:  -  Master's  in  Data  Science,  XYZ  University  (2020)   Experience:  -  Data  Scientist  at  ABC  Corp  (2021-Present):  Built  ML  models  using  Python  and  TensorFlow.  
+Analyzed
+ 
+datasets
+ 
+with
+ 
+Pandas
+ 
+and
+ 
+Spark.
+ -  Intern  at  DEF  Inc.  (2020):  Data  visualization  with  Tableau.   Skills:  -  Python,  SQL,  Machine  Learning,  Hadoop,  NLP   
+2025-09-18 20:44:13,390 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:44:13,489 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 20:44:14,431 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:44:17,299 - INFO - Saved conversation context to memory.
+2025-09-18 20:47:15,744 - INFO - Use pytorch device_name: cpu
+2025-09-18 20:47:15,744 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 20:47:26,915 - INFO - Creating RAG chain...
+2025-09-18 20:47:26,915 - INFO - Attempting to load vector store...
+2025-09-18 20:47:26,965 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 20:47:27,232 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:47:27,232 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:47:27,232 - INFO - Vector store loaded successfully.
+2025-09-18 20:47:27,232 - INFO - Creating retriever with MMR settings.
+2025-09-18 20:47:27,232 - INFO - RAG chain created successfully.
+2025-09-18 20:50:22,085 - INFO - Received query: do the screening of the attached resume against the job of data scientist
+
+Screen the following resumes:
+Resume 1: Jane Smith_Resume.pdf
+Jane  Smith  Email:  jane@example.com  |  Phone:  987-654-3210  |  GitHub:  github.com/janesmith   Education:  -  Bachelor's  in  Computer  Science,  ABC  University  (2019)   Experience:  -  SDE  at  XYZ  Tech  (2020-Present):  Developed  web  apps  using  Java  and  Spring.  Optimized  
+code
+ 
+with
+ 
+algorithms.
+ -  Software  Engineer  Intern  at  PQR  (2019):  Worked  on  AWS  microservices  and  Git.   Skills:  -  Java,  Python,  Data  Structures,  SQL,  Docker,  Agile   
+
+Resume 2: John Doe_Resume.pdf
+John  Doe  Email:  john@example.com  |  Phone:  123-456-7890  |  LinkedIn:  linkedin.com/in/johndoe   Education:  -  Master's  in  Data  Science,  XYZ  University  (2020)   Experience:  -  Data  Scientist  at  ABC  Corp  (2021-Present):  Built  ML  models  using  Python  and  TensorFlow.  
+Analyzed
+ 
+datasets
+ 
+with
+ 
+Pandas
+ 
+and
+ 
+Spark.
+ -  Intern  at  DEF  Inc.  (2020):  Data  visualization  with  Tableau.   Skills:  -  Python,  SQL,  Machine  Learning,  Hadoop,  NLP   
+2025-09-18 20:50:22,232 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:50:22,299 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 20:50:23,003 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:50:25,961 - INFO - Saved conversation context to memory.
+2025-09-18 20:51:28,394 - INFO - Received query: do the screening for sde job
+
+Screen the following resumes:
+Resume 1: Alex Johnson_Resume.pdf
+Alex  Johnson  Email:  alex@example.com  |  Phone:  555-123-4567   Education:  -  Bachelor's  in  Marketing,  LMN  University  (2018)   Experience:  -  Marketing  Specialist  at  UVW  Corp  (2019-Present):  Managed  social  media  campaigns.  -  Sales  Assistant  at  RST  (2018):  Customer  outreach.   Skills:  -  Social  Media,  SEO,  Content  Writing   
+
+Resume 2: Jane Smith_Resume.pdf
+Jane  Smith  Email:  jane@example.com  |  Phone:  987-654-3210  |  GitHub:  github.com/janesmith   Education:  -  Bachelor's  in  Computer  Science,  ABC  University  (2019)   Experience:  -  SDE  at  XYZ  Tech  (2020-Present):  Developed  web  apps  using  Java  and  Spring.  Optimized  
+code
+ 
+with
+ 
+algorithms.
+ -  Software  Engineer  Intern  at  PQR  (2019):  Worked  on  AWS  microservices  and  Git.   Skills:  -  Java,  Python,  Data  Structures,  SQL,  Docker,  Agile   
+
+Resume 3: John Doe_Resume.pdf
+John  Doe  Email:  john@example.com  |  Phone:  123-456-7890  |  LinkedIn:  linkedin.com/in/johndoe   Education:  -  Master's  in  Data  Science,  XYZ  University  (2020)   Experience:  -  Data  Scientist  at  ABC  Corp  (2021-Present):  Built  ML  models  using  Python  and  TensorFlow.  
+Analyzed
+ 
+datasets
+ 
+with
+ 
+Pandas
+ 
+and
+ 
+Spark.
+ -  Intern  at  DEF  Inc.  (2020):  Data  visualization  with  Tableau.   Skills:  -  Python,  SQL,  Machine  Learning,  Hadoop,  NLP   
+2025-09-18 20:51:28,483 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 20:51:28,960 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:51:32,668 - INFO - Saved conversation context to memory.
+2025-09-18 20:55:51,795 - INFO - Use pytorch device_name: cpu
+2025-09-18 20:55:51,795 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 20:56:02,927 - INFO - Creating RAG chain...
+2025-09-18 20:56:02,927 - INFO - Attempting to load vector store...
+2025-09-18 20:56:02,990 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 20:56:03,322 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:56:03,328 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:56:03,328 - INFO - Vector store loaded successfully.
+2025-09-18 20:56:03,328 - INFO - Creating retriever with MMR settings.
+2025-09-18 20:56:03,331 - INFO - RAG chain created successfully.
+2025-09-18 20:56:34,051 - INFO - Received query: screen the resumes against the job sde
+
+Screen the following resumes:
+Resume 1: Alex Johnson_Resume.pdf
+Alex  Johnson  Email:  alex@example.com  |  Phone:  555-123-4567   Education:  -  Bachelor's  in  Marketing,  LMN  University  (2018)   Experience:  -  Marketing  Specialist  at  UVW  Corp  (2019-Present):  Managed  social  media  campaigns.  -  Sales  Assistant  at  RST  (2018):  Customer  outreach.   Skills:  -  Social  Media,  SEO,  Content  Writing   
+
+Resume 2: Jane Smith_Resume.pdf
+Jane  Smith  Email:  jane@example.com  |  Phone:  987-654-3210  |  GitHub:  github.com/janesmith   Education:  -  Bachelor's  in  Computer  Science,  ABC  University  (2019)   Experience:  -  SDE  at  XYZ  Tech  (2020-Present):  Developed  web  apps  using  Java  and  Spring.  Optimized  
+code
+ 
+with
+ 
+algorithms.
+ -  Software  Engineer  Intern  at  PQR  (2019):  Worked  on  AWS  microservices  and  Git.   Skills:  -  Java,  Python,  Data  Structures,  SQL,  Docker,  Agile   
+2025-09-18 20:56:34,183 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 20:56:34,283 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 20:56:34,843 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:56:37,367 - INFO - Saved conversation context to memory.
+2025-09-18 20:57:06,952 - INFO - Received query: screen against the same
+
+Screen the following resumes:
+Resume 1: Alex Johnson_Resume.pdf
+Alex  Johnson  Email:  alex@example.com  |  Phone:  555-123-4567   Education:  -  Bachelor's  in  Marketing,  LMN  University  (2018)   Experience:  -  Marketing  Specialist  at  UVW  Corp  (2019-Present):  Managed  social  media  campaigns.  -  Sales  Assistant  at  RST  (2018):  Customer  outreach.   Skills:  -  Social  Media,  SEO,  Content  Writing   
+2025-09-18 20:57:07,045 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 20:57:07,431 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:57:09,199 - INFO - Saved conversation context to memory.
+2025-09-18 20:57:49,448 - INFO - Received query: can u tell me about jane smith experience
+2025-09-18 20:57:49,536 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 20:57:50,033 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:57:51,389 - INFO - Saved conversation context to memory.
+2025-09-18 20:59:15,192 - INFO - Received query: screen for sde job
+
+Screen the following resumes:
+Resume 1: Alex Johnson_Resume.pdf
+Alex  Johnson  Email:  alex@example.com  |  Phone:  555-123-4567   Education:  -  Bachelor's  in  Marketing,  LMN  University  (2018)   Experience:  -  Marketing  Specialist  at  UVW  Corp  (2019-Present):  Managed  social  media  campaigns.  -  Sales  Assistant  at  RST  (2018):  Customer  outreach.   Skills:  -  Social  Media,  SEO,  Content  Writing   
+
+Resume 2: Jane Smith_Resume.pdf
+Jane  Smith  Email:  jane@example.com  |  Phone:  987-654-3210  |  GitHub:  github.com/janesmith   Education:  -  Bachelor's  in  Computer  Science,  ABC  University  (2019)   Experience:  -  SDE  at  XYZ  Tech  (2020-Present):  Developed  web  apps  using  Java  and  Spring.  Optimized  
+code
+ 
+with
+ 
+algorithms.
+ -  Software  Engineer  Intern  at  PQR  (2019):  Worked  on  AWS  microservices  and  Git.   Skills:  -  Java,  Python,  Data  Structures,  SQL,  Docker,  Agile   
+
+Resume 3: John Doe_Resume.pdf
+John  Doe  Email:  john@example.com  |  Phone:  123-456-7890  |  LinkedIn:  linkedin.com/in/johndoe   Education:  -  Master's  in  Data  Science,  XYZ  University  (2020)   Experience:  -  Data  Scientist  at  ABC  Corp  (2021-Present):  Built  ML  models  using  Python  and  TensorFlow.  
+Analyzed
+ 
+datasets
+ 
+with
+ 
+Pandas
+ 
+and
+ 
+Spark.
+ -  Intern  at  DEF  Inc.  (2020):  Data  visualization  with  Tableau.   Skills:  -  Python,  SQL,  Machine  Learning,  Hadoop,  NLP   
+2025-09-18 20:59:15,340 - INFO - Formatting context for 2 retrieved documents.
+2025-09-18 20:59:15,826 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-18 20:59:20,021 - INFO - Saved conversation context to memory.
+2025-09-18 20:59:54,873 - INFO - Use pytorch device_name: cpu
+2025-09-18 20:59:54,873 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2025-09-18 21:00:05,104 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-18 21:00:05,140 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 21:00:05,147 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 21:00:13,159 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 21:00:13,165 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 21:00:13,169 - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 21:00:16,458 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2025-09-18 21:00:16,470 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
