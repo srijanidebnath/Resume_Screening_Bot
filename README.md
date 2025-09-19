@@ -138,27 +138,3 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## 🙌 Acknowledgments
-
-* **LangChain** for the RAG framework
-* **Streamlit** for rapid UI development
-* **Groq** and **Hugging Face** for powerful AI models
-* The **open-source community** for providing robust tools and libraries
-
----
-
-## 📬 Contact & Support
-
-* Open an issue on the **[GitHub Issues](https://github.com/yourusername/resume-screening-bot/issues)** page
-* Contact the maintainer via **email** *(replace with your email if desired)*
-
----
-
-🚀 **Empowering recruiters with AI-driven efficiency. Built with ❤️ for HR excellence.**
-
-```
-
----
-
-Do you also want me to **add shields.io badges** (Python version, License, Stars, Issues) at the very top for a professional look?
-```
