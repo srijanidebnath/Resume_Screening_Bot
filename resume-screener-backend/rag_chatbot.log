@@ -1,0 +1,280 @@
+2026-08-08 20:05:12,042 - INFO - Use pytorch device_name: cpu
+2026-08-08 20:05:12,042 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-08-08 20:07:38,267 - INFO - Use pytorch device_name: cpu
+2026-08-08 20:07:38,267 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-08-08 20:07:51,551 - INFO - Creating RAG chain...
+2026-08-08 20:07:51,551 - INFO - Attempting to load vector store...
+2026-08-08 20:07:51,551 - WARNING - Vector store directory not found.
+2026-08-08 20:07:51,551 - ERROR - Vector store unavailable. Chain not created.
+2026-08-08 20:08:41,913 - INFO - Use pytorch device_name: cpu
+2026-08-08 20:08:41,915 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-08-08 20:08:49,800 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-08-08 20:08:51,416 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-08-08 20:08:51,505 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-08-08 20:08:51,505 - ERROR - Failed to send telemetry event CollectionGetEvent: capture() takes 1 positional argument but 3 were given
+2026-08-08 20:09:19,724 - INFO - Loaded 0 conversation pairs into memory.
+2026-08-08 20:09:20,284 - INFO - Received query: screen the resume
+
+Screen the following resumes:
+Resume 1: Jane Smith_Resume.pdf
+Jane
+ 
+Smith
+ 
+Email:
+ 
+jane@example.com
+ 
+|
+ 
+Phone:
+ 
+987-654-3210
+ 
+|
+ 
+GitHub:
+ 
+github.com/janesmith
+ 
+ 
+Education:
+ 
+-
+ 
+Bachelor's
+ 
+in
+ 
+Computer
+ 
+Science,
+ 
+ABC
+ 
+University
+ 
+(2019)
+ 
+ 
+Experience:
+ 
+-
+ 
+SDE
+ 
+at
+ 
+XYZ
+ 
+Tech
+ 
+(2020-Present):
+ 
+Developed
+ 
+web
+ 
+apps
+ 
+using
+ 
+Java
+ 
+and
+ 
+Spring.
+ 
+Optimized
+ 
+code
+ 
+with
+ 
+algorithms.
+ 
+-
+ 
+Software
+ 
+Engineer
+ 
+Intern
+ 
+at
+ 
+PQR
+ 
+(2019):
+ 
+Worked
+ 
+on
+ 
+AWS
+ 
+microservices
+ 
+and
+ 
+Git.
+ 
+ 
+Skills:
+ 
+-
+ 
+Java,
+ 
+Python,
+ 
+Data
+ 
+Structures,
+ 
+SQL,
+ 
+Docker,
+ 
+Agile
+ 
+ 
+2026-08-08 20:09:20,284 - INFO - Creating RAG chain...
+2026-08-08 20:09:20,284 - INFO - Attempting to load vector store...
+2026-08-08 20:09:20,299 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-08-08 20:09:20,301 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-08-08 20:09:20,301 - INFO - Vector store loaded successfully.
+2026-08-08 20:09:20,301 - INFO - Creating retriever with MMR settings.
+2026-08-08 20:09:20,309 - INFO - RAG chain created successfully.
+2026-08-08 20:09:20,655 - ERROR - Failed to send telemetry event CollectionQueryEvent: capture() takes 1 positional argument but 3 were given
+2026-08-08 20:09:20,662 - WARNING - Number of requested results 5 is greater than number of elements in index 1, updating n_results = 1
+2026-08-08 20:09:20,678 - INFO - Formatting context for 1 retrieved documents.
+2026-08-08 20:09:21,175 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-08 20:09:23,131 - INFO - Saved conversation context to memory.
+2026-08-08 20:10:27,206 - INFO - Loaded 1 conversation pairs into memory.
+2026-08-08 20:10:27,214 - INFO - Received query: screeen the resumes against the jobs and give me a comparison table at last for who is suitable for whivh job
+2026-08-08 20:10:27,495 - WARNING - Number of requested results 5 is greater than number of elements in index 2, updating n_results = 2
+2026-08-08 20:10:27,502 - INFO - Formatting context for 2 retrieved documents.
+2026-08-08 20:10:28,184 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-08 20:10:33,120 - INFO - Saved conversation context to memory.
+2026-08-08 20:11:24,045 - INFO - Loaded 0 conversation pairs into memory.
+2026-08-08 20:11:24,129 - INFO - Received query: screen it
+
+Screen the following resumes:
+Resume 1: Alex Johnson_Resume.pdf
+Alex
+ 
+Johnson
+ 
+Email:
+ 
+alex@example.com
+ 
+|
+ 
+Phone:
+ 
+555-123-4567
+ 
+ 
+Education:
+ 
+-
+ 
+Bachelor's
+ 
+in
+ 
+Marketing,
+ 
+LMN
+ 
+University
+ 
+(2018)
+ 
+ 
+Experience:
+ 
+-
+ 
+Marketing
+ 
+Specialist
+ 
+at
+ 
+UVW
+ 
+Corp
+ 
+(2019-Present):
+ 
+Managed
+ 
+social
+ 
+media
+ 
+campaigns.
+ 
+-
+ 
+Sales
+ 
+Assistant
+ 
+at
+ 
+RST
+ 
+(2018):
+ 
+Customer
+ 
+outreach.
+ 
+ 
+Skills:
+ 
+-
+ 
+Social
+ 
+Media,
+ 
+SEO,
+ 
+Content
+ 
+Writing
+ 
+ 
+2026-08-08 20:11:24,256 - WARNING - Number of requested results 5 is greater than number of elements in index 2, updating n_results = 2
+2026-08-08 20:11:24,263 - INFO - Formatting context for 2 retrieved documents.
+2026-08-08 20:11:24,631 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-08 20:11:26,248 - INFO - Saved conversation context to memory.
+2026-08-08 20:11:38,469 - INFO - Loaded 1 conversation pairs into memory.
+2026-08-08 20:11:38,479 - INFO - Received query: hello how r u
+2026-08-08 20:11:38,708 - WARNING - Number of requested results 5 is greater than number of elements in index 2, updating n_results = 2
+2026-08-08 20:11:38,718 - INFO - Formatting context for 2 retrieved documents.
+2026-08-08 20:11:39,571 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-08-08 20:11:40,059 - INFO - Saved conversation context to memory.
+2026-08-08 20:18:41,314 - INFO - Use pytorch device_name: cpu
+2026-08-08 20:18:41,314 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-08-08 20:19:00,325 - INFO - Creating RAG chain...
+2026-08-08 20:19:00,325 - INFO - Attempting to load vector store...
+2026-08-08 20:19:00,471 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-08-08 20:19:01,240 - ERROR - Failed to send telemetry event ClientStartEvent: capture() takes 1 positional argument but 3 were given
+2026-08-08 20:19:01,256 - ERROR - Failed to send telemetry event ClientCreateCollectionEvent: capture() takes 1 positional argument but 3 were given
+2026-08-08 20:19:01,256 - INFO - Vector store loaded successfully.
+2026-08-08 20:19:01,256 - INFO - Creating retriever with MMR settings.
+2026-08-08 20:19:01,257 - INFO - RAG chain created successfully.
+2026-08-08 20:47:51,857 - INFO - Use pytorch device_name: cpu
+2026-08-08 20:47:51,861 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-08-08 20:48:11,640 - INFO - Use pytorch device_name: cpu
+2026-08-08 20:48:11,640 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-08-08 20:48:14,859 - INFO - Use pytorch device_name: cpu
+2026-08-08 20:48:14,859 - INFO - Load pretrained SentenceTransformer: BAAI/bge-small-en-v1.5
+2026-08-08 20:48:19,100 - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 3d5e0235-2fc9-4129-9bcd-cf2303301ea9)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md
+2026-08-08 20:48:19,102 - WARNING - Retrying in 1s [Retry 1/5].

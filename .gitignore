@@ -1,0 +1,6 @@
+venv/
+   node_modules/
+   .env
+   chroma_db/
+   chat_history.json
+   __pycache__/
