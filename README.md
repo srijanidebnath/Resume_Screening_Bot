@@ -1,10 +1,9 @@
-#📌 Resume Screening Bot
-
+# 📌 Resume Screening Bot
 
 A powerful AI-powered virtual assistant designed for recruiters and HR professionals to streamline resume screening and candidate evaluation.
 Leveraging Retrieval-Augmented Generation (RAG), this tool intelligently analyzes resumes against job descriptions, providing match scores, strengths, weaknesses, and recommendations.
 
-✨ Features
+**✨ Features**
 
 * Automated Resume Screening: Upload multiple PDF resumes and screen them against job descriptions with match scores (0-100%), detailed strengths, weaknesses, and recommendations.
 * Contextual Job Description Analysis: Uses a Chroma vector store to retrieve relevant job description details for accurate responses.
@@ -14,7 +13,7 @@ Leveraging Retrieval-Augmented Generation (RAG), this tool intelligently analyze
 * Job Description Vector DB Page: Add, update, or delete indexed job description PDFs directly from the browser.
 * Multi-LLM Ready: Built around Groq (Llama) by default, with LangChain making it straightforward to swap in OpenAI or Google Generative AI models.
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 * Frontend: React (Vite) — JavaScript, HTML, CSS
 * Backend: FastAPI (Python)
@@ -25,7 +24,7 @@ Leveraging Retrieval-Augmented Generation (RAG), this tool intelligently analyze
 * PDF Processing: PyPDF for parsing resumes and job descriptions
 * Utilities: Conversation buffer memory, logging, and environment variable management
 
-📋 Prerequisites
+**📋 Prerequisites**
 
 * Python: Version 3.11 recommended
 * Node.js: Version 18 or higher
@@ -33,7 +32,7 @@ Leveraging Retrieval-Augmented Generation (RAG), this tool intelligently analyze
 * API Keys: Required for the LLM provider
 * GROQ_API_KEY
 
-🚀 Installation
+**🚀 Installation**
 
 ```
 # Clone the Repository
@@ -81,7 +80,7 @@ npm run dev
 
 Open **http://localhost:5173** in your browser. The sidebar should show **● connected** once the backend is reachable.
 
-🎯 Usage
+**🎯 Usage**
 
 1. Index a Job Description – Go to the Vector DB page and upload a job description PDF; it's chunked, embedded, and stored for retrieval.
 2. Start a New Chat – Click New Chat to begin a screening session.
@@ -95,7 +94,7 @@ Open **http://localhost:5173** in your browser. The sidebar should show **● co
 
 💡 Tip: Use keywords like screen, evaluate, assess, review, or match in your message to trigger resume screening — otherwise attached resumes are ignored.
 
-📂 Project Structure
+**📂 Project Structure**
 
 ```
 Resume_Screening_Bot/
@@ -132,7 +131,8 @@ Resume_Screening_Bot/
             └── feedback.py         # /api/feedback
 ```
 
-🤝 Contributing
+**🤝 Contributing**
+
 We welcome contributions to enhance the Resume Screening Bot!
 
 1. Fork the repository
@@ -158,6 +158,6 @@ git push origin feature/YourFeature
 
 ✅ Ensure your code follows the project's style and includes tests where applicable.
 
-📜 License
+**📜 License**
 
 This project is licensed under the MIT License.
