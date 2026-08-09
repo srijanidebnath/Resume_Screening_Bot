@@ -1,4 +1,6 @@
-📌 Resume Screening Bot
+#📌 Resume Screening Bot
+
+
 A powerful AI-powered virtual assistant designed for recruiters and HR professionals to streamline resume screening and candidate evaluation.
 Leveraging Retrieval-Augmented Generation (RAG), this tool intelligently analyzes resumes against job descriptions, providing match scores, strengths, weaknesses, and recommendations.
 
@@ -157,4 +159,5 @@ git push origin feature/YourFeature
 ✅ Ensure your code follows the project's style and includes tests where applicable.
 
 📜 License
+
 This project is licensed under the MIT License.
